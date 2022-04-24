@@ -67,7 +67,7 @@ class myHomePage extends StatelessWidget {
               width: double.infinity,
               height: 100,
               child: Card(
-                color: Colors.amber,
+                color: Colors.deepOrangeAccent,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                 ),
@@ -83,7 +83,7 @@ class myHomePage extends StatelessWidget {
               width: double.infinity,
               height: 100,
               child: Card(
-                color: Colors.amber,
+                color: Colors.redAccent,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                 ),
