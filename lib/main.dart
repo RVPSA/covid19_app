@@ -22,7 +22,7 @@ class myHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Covid - 19 News'),
+        title: Text('Covid - 19 Daily News'),
         leading: IconButton(
           icon: Icon(Icons.campaign),
           onPressed: (){},
