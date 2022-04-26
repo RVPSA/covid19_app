@@ -39,7 +39,7 @@ class _myHomePageState extends State<myHomePage> {
         date = jsonResponse['data']['update_date_time'];
         newCases = jsonResponse['data']['local_new_cases'];
         todayDeathCases = jsonResponse['data']['local_new_deaths'];
-        totaldeath = jsonResponse['data']['local_new_deaths'];
+        totaldeath = jsonResponse['data']['local_deaths'];
 
       } else {
         print('Request failed with status: ${response.statusCode}.');
